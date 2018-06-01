@@ -45,7 +45,7 @@ print('Intersection of set1 and set is : ',set_inter)
 d ={}
 print('enter the name and marks of student')
 print('NAME MARKS\n')
-for i in range(2):
+for i in range(10):
     text = input().split()
     d[text[0]]=text[1]
 print(d)
